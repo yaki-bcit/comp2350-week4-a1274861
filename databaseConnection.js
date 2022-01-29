@@ -2,20 +2,19 @@ const mysql = require('mysql2');
 
 const is_heroku = process.env.IS_HEROKU || false;
 
-//mysql://b6fb24cb4c8c37:702be0f5@us-cdbr-east-03.cleardb.com/heroku_a79dfbc72e06757?reconnect=true
 const dbConfigHeroku = {
-	host: "us-cdbr-east-03.cleardb.com",
-	user: "b6fb24cb4c8c37",
-	password: "702be0f5",
-	database: "heroku_a79dfbc72e06757",
+	host: "l6glqt8gsx37y4hs.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
+	user: "xjv8ue8dxqdpa1kf",
+	password: "w456mzca5dz6f457",
+	database: "qu8xrnirttrdgv69",
 	multipleStatements: false
 };
 
 const dbConfigLocal = {
 	host: "localhost",
 	user: "root",
-	password: "Password",
-	database: "database1",
+	password: "X58F+,aa}&S/|kS?",
+	database: "week_4_heroku",
 	multipleStatements: false
 };
 
